@@ -12,10 +12,12 @@ const Conversation = ({
     float: 'left',
     color: '#efefef',
     bgColor: '#3a3a3a',
+    profImg: './img/tsuki01.jpg',
   };
   const koi = {
     float: 'right',
     color: '#3a3a3a',
+    profImg: '../img/koito01.jpg',
     bgColor: '#efefef',
   };
   const getSender = () => {
@@ -29,7 +31,7 @@ const Conversation = ({
       {sender ? (
         <StyledConversation person={sender}>
           <div>
-            <img src={profImg} />
+            <img src={sender.profImg} />
             <div>
               <p>{text}</p>
             </div>

@@ -37,9 +37,9 @@ const StyledConversation = styled.div`
       p {
         /* text-align: ${(props) => props.person.float}; */
         /* word-break: keep-all; */
-        font-size: 12px;
+        font-size: 14px;
         font-weight: var(--medium);
-        line-height: 18px;
+        line-height: 20px;
         color: ${(props) => props.person.color};
       }
     }
